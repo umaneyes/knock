@@ -36,23 +36,23 @@ _This version does not support the output file option._
 = Examples =
  <b>Scanning with internal wordlist</b>
 
- <code>$ python knock.py <domain.com></code>
+ <code>$ python knock.py _domain.com_</code>
 
  <b>Scanning with external wordlist</b>
 
- <code>$ python knock.py <domain.com> <wordlist.txt></code>
+ <code>$ python knock.py _domain.com wordlist.txt_</code>
 
  <b>Zone Transfer discovery (-zt)</b>
 
- <code>$ python knock.py -zt <domain.com></code>
+ <code>$ python knock.py -zt _domain.com_</code>
 
  <b>Wildcard testing (-wc)</b>
 
- <code>$ python knock.py -wc <domain.com></code>
+ <code>$ python knock.py -wc _domain.com_</code>
 
  <b>Dns resolver (-dns)</b>
 
- <code>$ python knock.py -dns <domain.com>/code>
+ <code>$ python knock.py -dns _domain.com_</code>
 
 
 _You do not understand how to use knock? Back to play with the Xbox!_
