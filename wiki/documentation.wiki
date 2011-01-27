@@ -1,5 +1,3 @@
-#Featured
-
 = Introduction =
 
 In version 1.4.3 were added the following new features: Transfer Zone discovery, Wildcard testing, Internal wordlist.
