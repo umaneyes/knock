@@ -1,0 +1,69 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+In version 1.4.3 were added the following new features: Transfer Zone discovery, Wildcard testing, Internal wordlist.
+
+Only for use the Zone Transfer option (-zt) you must install the module dnspython, otherwise you can do without.
+This version does not support the output file option.
+
+= Details =
+
+*Usage:*
+  <li>Scanning with internal wordlist:</li>
+
+  _$ python knock.py < url >_
+
+  <li>Scanning with external wordlist:</li>
+
+  _$ python knock.py < url > [ wordlist ]_
+
+
+*Options:*
+
+  <li>-zt Zone Transfer discovery:</li>
+
+  _$ python knock.py -zt < url >_
+
+
+  <li>-wc Wildcard testing:</li>
+
+  _$ python knock.py -wc < url >_
+
+  <li>-dns Dns resolver:</li>
+
+  _$ python knock.py -dns < url >_
+
+
+= Examples =
+*Scanning with internal wordlist*
+
+ $ python knock.py domain.com
+
+*Scanning with external wordlist*
+
+ $ python knock.py domain.com wordlist.txt
+
+*Zone Transfer discovery (-zt)*
+
+ $ python knock.py domain.com -zt
+
+*Wildcard testing (-wc)*
+
+ $ python knock.py domain.com -wc
+
+*Dns resolver (-dns)*
+
+ $ python knock.py domain.com -dns
+
+<br />
+_You do not understand how to use knock? Back to play with the Xbox!_
+
+=Author=
+
+Gianni '<a href="http://www.guelfoweb.com">guelfoweb</a>' Amato
+
+=Contact=
+
+guelfoweb@gmail.com
+
