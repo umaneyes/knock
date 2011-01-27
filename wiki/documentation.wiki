@@ -32,27 +32,32 @@ _This version does not support the output file option._
 
   <code>$ python -dns knock.py <url></code>
 
+= Executable on Linux =
+
+ <b>From shell command</b>
+ <code>$ sudo cp knock.py /usr/bin/knock</code>
+ <code>$ sudo chmod a+x /usr/bin/knock</code>
 
 = Examples =
- <b>Scanning with internal wordlist</b>
+ <b>Scanning with <u>internal</u> wordlist</b>
 
- <code>$ python knock.py _domain.com_</code>
+ <code>$ knock _domain.com_</code>
 
- <b>Scanning with external wordlist</b>
+ <b>Scanning with <u>external</u> wordlist</b>
 
- <code>$ python knock.py _domain.com wordlist.txt_</code>
+ <code>$ knock _domain.com wordlist.txt_</code>
 
  <b>Zone Transfer discovery (-zt)</b>
 
- <code>$ python knock.py -zt _domain.com_</code>
+ <code>$ knock -zt _domain.com_</code>
 
  <b>Wildcard testing (-wc)</b>
 
- <code>$ python knock.py -wc _domain.com_</code>
+ <code>$ knock -wc _domain.com_</code>
 
  <b>Dns resolver (-dns)</b>
 
- <code>$ python knock.py -dns _domain.com_</code>
+ <code>$ knock -dns _domain.com_</code>
 
 
 _You do not understand how to use knock? Back to play with the Xbox!_
