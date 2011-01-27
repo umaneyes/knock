@@ -33,10 +33,13 @@ _This version does not support the output file option._
   <code>$ python -dns knock.py <url></code>
 
 = Executable on Linux =
+ <a href="http://code.google.com/p/knock/downloads/list">Download knock</a> and extract file _knock.py_
 
- <b>From shell command</b>
+ From shell command:
  <code>$ sudo cp knock.py /usr/bin/knock</code>
  <code>$ sudo chmod a+x /usr/bin/knock</code>
+
+ Now you can use knock as shown in the examples.
 
 = Examples =
  <b>Scanning with <u>internal</u> wordlist</b>
