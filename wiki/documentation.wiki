@@ -7,60 +7,60 @@ This version does not support the output file option.
 
 = Details =
 
-*Usage:*
-  <li>Scanning with internal wordlist:</li>
+<h3>Usage:</h3>
+  <b>Scanning with <u>internal</u> wordlist:</b>
 
-  _$ python knock.py < url >_
+  <pre>$ python knock.py <url></pre>
 
-  <li>Scanning with external wordlist:</li>
+  <b>Scanning with <u>external</u> wordlist:</b>
 
-  _$ python knock.py < url > [ wordlist ]_
-
-
-*Options:*
-
-  <li>-zt Zone Transfer discovery:</li>
-
-  _$ python knock.py -zt < url >_
+  <pre>$ python knock.py <url> <wordlist></pre>
 
 
-  <li>-wc Wildcard testing:</li>
+<h3>Options:</h3>
 
-  _$ python knock.py -wc < url >_
+  <b>-zt</b> <u>Zone Transfer discovery:</u>
 
-  <li>-dns Dns resolver:</li>
+  <pre>$ python -zt knock.py <url></pre>
 
-  _$ python knock.py -dns < url >_
+
+  <b>-wc</b> <u>Wildcard testing:</u>
+
+  <pre>$ python -wc knock.py <url></pre>
+
+  <b>-dns</b> <u>Dns resolver:</u>
+
+  <pre>$ python -dns knock.py <url></pre>
 
 
 = Examples =
-*Scanning with internal wordlist*
+ <b>Scanning with internal wordlist</b>
 
- $ python knock.py domain.com
+ <pre>$ python knock.py domain.com</pre>
 
-*Scanning with external wordlist*
+ <b>Scanning with external wordlist</b>
 
- $ python knock.py domain.com wordlist.txt
+ <pre>$ python knock.py domain.com wordlist.txt</pre>
 
-*Zone Transfer discovery (-zt)*
+ <b>Zone Transfer discovery (-zt)</b>
 
- $ python knock.py domain.com -zt
+ <pre>$ python knock.py domain.com -zt</pre>
 
-*Wildcard testing (-wc)*
+ <b>Wildcard testing (-wc)</b>
 
- $ python knock.py domain.com -wc
+ <pre>$ python knock.py domain.com -wc</pre>
 
-*Dns resolver (-dns)*
+ <b>Dns resolver (-dns)</b>
 
- $ python knock.py domain.com -dns
+ <pre>$ python knock.py domain.com -dns</pre>
 
-<br />
+
 _You do not understand how to use knock? Back to play with the Xbox!_
 
 =Author=
 
-Gianni '<a href="http://www.guelfoweb.com">guelfoweb</a>' Amato
+ Gianni '<a href="http://www.guelfoweb.com">guelfoweb</a>' Amato
 
 =Contact=
 
-guelfoweb@gmail.com
+ guelfoweb@gmail.com
