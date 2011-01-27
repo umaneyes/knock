@@ -10,49 +10,49 @@ _This version does not support the output file option._
 <h3>Usage:</h3>
   <b>Scanning with <u>internal</u> wordlist:</b>
 
-  <pre>$ python knock.py <url></pre>
+  <code>$ python knock.py <url></code>
 
   <b>Scanning with <u>external</u> wordlist:</b>
 
-  <pre>$ python knock.py <url> <wordlist></pre>
+  <code>$ python knock.py <url> <wordlist></code>
 
 
 <h3>Options:</h3>
 
   <b>-zt</b> <u>Zone Transfer discovery:</u>
 
-  <pre>$ python -zt knock.py <url></pre>
+  <code>$ python -zt knock.py <url></code>
 
 
   <b>-wc</b> <u>Wildcard testing:</u>
 
-  <pre>$ python -wc knock.py <url></pre>
+  <code>$ python -wc knock.py <url></code>
 
   <b>-dns</b> <u>Dns resolver:</u>
 
-  <pre>$ python -dns knock.py <url></pre>
+  <code>$ python -dns knock.py <url></code>
 
 
 = Examples =
  <b>Scanning with internal wordlist</b>
 
- <pre>$ python knock.py domain.com</pre>
+ <code>$ python knock.py domain.com</code>
 
  <b>Scanning with external wordlist</b>
 
- <pre>$ python knock.py domain.com wordlist.txt</pre>
+ <code>$ python knock.py domain.com wordlist.txt</code>
 
  <b>Zone Transfer discovery (-zt)</b>
 
- <pre>$ python knock.py domain.com -zt</pre>
+ <code>$ python knock.py domain.com -zt</code>
 
  <b>Wildcard testing (-wc)</b>
 
- <pre>$ python knock.py domain.com -wc</pre>
+ <code>$ python knock.py domain.com -wc</code>
 
  <b>Dns resolver (-dns)</b>
 
- <pre>$ python knock.py domain.com -dns</pre>
+ <code>$ python knock.py domain.com -dns</code>
 
 
 _You do not understand how to use knock? Back to play with the Xbox!_
