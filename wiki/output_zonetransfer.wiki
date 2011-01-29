@@ -18,7 +18,7 @@ Knock v1.4.4 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 	Found name server: ns1.ernet.in.
 	Found name server: e-eihq01.eis.ernet.in.
 
-[+] Trying a zone transfer for ernet.in from name server e-eihq02.eis.ernet.in.
++ Trying a zone transfer for ernet.in from name server e-eihq02.eis.ernet.in.
 
 @	86400 IN SOA ns1 dnsadm 2010102211 10800 900 604800 86400
 
