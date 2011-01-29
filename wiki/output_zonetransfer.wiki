@@ -5,12 +5,12 @@
 
 Knock v1.4.4 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 
-[+] Testing domain
++ Testing domain
       	www.ernet.in             202.41.97.64      
-[+] Dns resolving
++ Dns resolving
        Domain name               Ip address              Name server       
 	No address associated with hostname ernet.in
-[+] Getting NS records for ernet.in
++ Getting NS records for ernet.in
 
 	Found name server: e-eihq02.eis.ernet.in.
 	Found name server: e-iisc02.iisc.ernet.in.
