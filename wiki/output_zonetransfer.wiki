@@ -1,0 +1,4332 @@
+=Scanning for Zone Transfer on ernet.in=
+
+<code>
+*$ ./knock.py -zt ernet.in*
+
+Knock v1.4.4 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
+
+[+] Testing domain
+      	www.ernet.in             202.41.97.64      
+[+] Dns resolving
+       Domain name               Ip address              Name server       
+	No address associated with hostname ernet.in
+[+] Getting NS records for ernet.in
+
+	Found name server: e-eihq02.eis.ernet.in.
+	Found name server: e-iisc02.iisc.ernet.in.
+	Found name server: dns.ernet.in.
+	Found name server: ns1.ernet.in.
+	Found name server: e-eihq01.eis.ernet.in.
+
+[+] Trying a zone transfer for ernet.in from name server e-eihq02.eis.ernet.in.
+
+@	86400 IN SOA ns1 dnsadm 2010102211 10800 900 604800 86400
+
+@	86400 IN NS dns
+86400 IN NS ns1
+86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc02.iisc
+
+@	86400 IN MX 5 delavgw1.eis
+86400 IN MX 10 mail.eis
+
+@	86400 IN A 202.41.97.64
+
+aberdeenb	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+nrsah	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+e-tvm02.TVM	86400 IN A 202.141.131.132
+
+*.bionau	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+gw-pune	86400 IN A 202.41.82.144
+
+bsvg	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jnvald	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+vdbic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.hbti	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+dwrflowerdale	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+isimed	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+plasma	86400 IN NS ns1.blazedns.net.
+86400 IN NS mail.plasma
+86400 IN NS fastarjuna.plasma
+
+e-uohd01.hyd	86400 IN A 202.141.142.131
+
+unv	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.dmrl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+resources.boseinst	10800 IN A 203.197.107.3
+
+*.aictesro	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.csssc	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+*.vcmugc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+*.manuulib	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+dns.cse.iitd	86400 IN A 202.141.68.3
+
+*.naac	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nmrl	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 mta.ncst
+
+bbvhz	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sac	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+pdcattle	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sag	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.xtech	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 naveen.ncst
+
+gama	86400 IN MX 10 krishna.doe
+
+kpic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cdlmec	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+uohyd	86400 IN NS uohdns.uohyd
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ciefl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+ias	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.isro	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+BKSH	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jnvkasaragod	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+tiss	86400 IN NS dns
+86400 IN NS ss585.ncst
+
+drmgrec	86400 IN NS e-chn02.chn
+86400 IN NS e-chn03.chn
+
+*.cmcmas	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.adinet	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+kadamtalla	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+rmc	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+cmch	86400 IN MX 90 sunserv.cmc.stph.net.
+
+telcom	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+uasd	86400 IN NS ns0-blr
+86400 IN NS NS1-BLR
+
+nih	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+
+iihr	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.cdach	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cpric	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+swedeshnagar	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gju	86400 IN NS dns
+86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc03.iisc
+
+tmhaddo	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+skuastkashmir-rrnrs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jnvandaman	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+HSBI	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+skvamba.ernet.in	86400 IN NS e-iisc01.iisc
+
+KBHSL	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jnvtawang	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+SIDHARTH	86400 IN NS ns1
+86400 IN NS milan.doe
+86400 IN NS e-eihq02.eis
+
+bethel	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+mri	86400 IN NS ipc2.mri
+86400 IN NS ipc98.mri
+
+e-iisc02.iisc	86400 IN A 202.141.1.132
+
+adinet	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+IIMB	86400 IN NS stpb.soft.net.
+86400 IN NS alpha2.IIMB
+86400 IN NS taurus.soft.net.
+
+iiap	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+havelock	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+sgu	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iiithyd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+rurkiu	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+rri	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cmie	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+icarsbi	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.niclai	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+bvhs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.itrc	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+gndu	86400 IN NS NS0-BLR
+
+*.tmc	86400 IN MX 10 shakti.ncst
+
+oralkatcha	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+irma.irm	86400 IN A 202.141.92.37
+
+*.mylib	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+gsss-kadmat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+svvv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+e-kol01.kol	86400 IN A 202.141.139.131
+
+*.arce	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+jnvazm	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sro-aicte	86400 IN NS e-chn02.chn
+86400 IN NS e-chn03.chn
+
+rangachang	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+edcil	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+cdach	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+iipr	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.ugc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+tcs	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+*.mathbu	86400 IN MX 10 math.mu.ac.in.
+
+SKVAMBA	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iisc	86400 IN NS dns.iisc
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+86400 IN NS e-iisc03.iisc
+
+gghssk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cedtii	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+bitmesra	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iitb	86400 IN NS dns.iitb.ac.in.
+86400 IN NS dns.iitb
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+
+iitd	86400 IN NS dns.cse.iitd
+86400 IN NS dns.iitd
+86400 IN NS dns2.iitd
+86400 IN NS dns3.iitd
+
+burdwan	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+spa	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+krec	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+icargoa	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+GJICT	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iiss	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gdnmhs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iitm	86400 IN NS pri-dns.iitm
+86400 IN NS sec-dns.iitm
+
+amic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cat	86400 IN NS ns1.cat.gov.in.
+86400 IN NS ns1.cat
+
+*.alpha	86400 IN MX 10 krishna.doe
+
+*.jadav	86400 IN MX 20 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+bpurunv	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+nameserver.boseinst	10800 IN A 202.141.148.23
+
+*.icfai	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+spu	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS e-iisc01.iisc
+
+*.frlht	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+apctt	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+ghs-agatti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+nicfos	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ssf	86400 IN MX 10 mail-relay-in.cmi.ac.in.
+86400 IN MX 30 mail-relay-blr
+86400 IN MX 40 naveen.ncst
+
+isibang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+allduniv	86400 IN NS e-iitk01.iitk
+86400 IN NS e-iitk02.iitk
+
+ns2.cdacb	86400 IN A 203.200.36.251
+
+bose	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+reccal	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gabbar.svrec	86400 IN A 202.141.85.12
+
+icarnl	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+coak	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.blh	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cedtgkp	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+agic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ggichd	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mail-relay-vsat2	86400 IN A 202.41.99.9
+
+bterresa	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+*.samuha	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ns1.vetbifguwahati	86400 IN A 59.160.223.156
+
+svb	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+udc	86400 IN NS e-cati01.cati
+86400 IN NS e-cati02.cati
+
+aabv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+KADATHUMMISI	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+garuda.barc	86400 IN A 203.199.33.3
+
+iucindore	86400 IN NS ns.cati
+86400 IN NS ns.iucindore
+86400 IN NS ns2.cati
+
+cifri	86400 IN NS e-kol01.kol
+86400 IN NS e-kol02.kol
+
+aftc	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.stpbang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.kecm	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+uso	86400 IN NS uso.uso
+86400 IN NS plume.uso
+86400 IN NS prlfs.prl
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS granules.uso
+
+library.bub	86400 IN A 202.141.128.120
+
+SVU	86400 IN NS SVU
+
+SVU	86400 IN A 202.141.29.242
+
+doeacc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+toi	86400 IN NS lod.com.
+86400 IN NS timesgate.toi
+
+*.isidev	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+alpha	86400 IN MX 10 krishna.doe
+
+*.csrti	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+VIDYA-ERDCICAL	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+icfai	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+NS0-BLR	86400 IN A 202.141.1.132
+
+frlht	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+hmhaddo	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+nba-aicte	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+mwgic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+suvs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iarirsk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.crlbel	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+rgco	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+bvc	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+refugees	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+derl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+longisland	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+seism	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+maic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ssmce	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+SOMNATH-V	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.drdl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+*.stthom	86400 IN MX 10 uumail-relay-blr
+
+*.aictem	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+ns1.imsc	86400 IN A 203.199.209.86
+
+svpv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+subansiri.guniv	86400 IN A 202.141.75.3
+
+*.ncml	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+*.sebisro	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+ZPHSNAGAPUR	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sanghvi	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+sasehq	86400 IN NS dns
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc03.iisc
+
+manage.lbsnaa	86400 IN A 210.212.83.114
+
+TVM	86400 IN NS e-tvm01.TVM
+86400 IN NS e-tvm02.TVM
+
+csh-del	86400 IN NS dns
+86400 IN NS vikram.doe
+86400 IN NS mahavir.doe
+86400 IN NS e-iisc03.iisc
+
+cssri	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jnuniv	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+csrti	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nrcsoya	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+uniraj	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+e-jai01.jai	86400 IN A 202.141.126.131
+
+macaque.smi	86400 IN A 202.141.52.18
+
+ghs-kadmat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+*.gtzhts	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+etdcb	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mailblr.iisc
+86400 IN MX 30 mail-relay-vsat
+
+*.itibang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+gtccircot	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.vasncst	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+bxmail	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+dibru	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+
+lpscv	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+drdl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+KRVV	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.uvce	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.cubmb	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+*.clib0	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+sebisro	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+gjbss-amini	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+pri-dns.iitm	86400 IN A 202.141.25.1
+
+SVVS	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.bioint	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.cihts	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+nii	86400 IN NS NS0-BLR
+
+e-chn03.chn	86400 IN A 202.141.30.9
+
+dfrl	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+icarmizoram	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ns1.saha	172800 IN A 121.242.12.3
+
+rrcat	86400 IN NS ns1.cat.gov.in.
+86400 IN NS ns1.cat
+
+ahrd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+ipc98.mri	86400 IN A 202.41.87.98
+
+bioinpu	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+nsnic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+rgpc	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+csssc	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+meghnad.veccal	86400 IN A 202.41.93.123
+
+*.gu	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+GICLRT	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.nilgiri	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+inraphel	86400 IN MX 10 mail.kol
+86400 IN MX 20 e-eihq01.eis
+
+*.cgc	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+gipe	86400 IN NS e-iucc01.iucaa
+86400 IN NS e-iucc02.iucaa
+
+gpssfb	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+xtech	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 naveen.ncst
+
+*.siva	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.ou	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cubmb	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+clib0	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+cihts	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+ggicpp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nhicindia	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.rmpbarc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+dns2.UNIPUNE	86400 IN A 196.1.114.2
+
+*.criil	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+nbpgr	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+madphy	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+phsrscud	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ertle	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+wesee	86400 IN NS e-eihq02.eis
+
+mlghs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.nicfos1	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.kfri	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+agnigarh.tezu	86400 IN A 202.141.75.163
+
+*.refugees	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.sirnetm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+ZPMSGT	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nitie	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+ramakrishnapur	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+cssriwb	86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+
+e-iitk01.iitk	86400 IN A 202.141.40.131
+
+montessori	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+soochak.ncst	56995 IN A 202.41.110.3
+56995 IN A 202.41.110.34
+
+info-rrcat	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+inflibnet	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+alumni	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nliguntur	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+imsc	86400 IN NS ns1.imsc
+86400 IN NS ns2.imsc
+
+IIMIDR	86400 IN NS dns.iisc
+86400 IN NS ece.iisc
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+
+kamorta	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+cdedse	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+MSV	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mildera	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+sec-dns.iitm	86400 IN A 202.141.25.2
+
+rhrsbaj	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gjbsn-kiltan	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+iobm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+zphsstp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+e-eihq03.eis	43200 IN A 202.41.97.132
+
+netmaster	86400 IN A 202.141.1.30
+
+diglipur	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+iisim	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ertle	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+nitw	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+e-iisc03.iisc	86400 IN A 202.141.1.134
+
+vidyavahini	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.etdcb	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.smi	86400 IN MX 10 mail-relay-in.cmi.ac.in.
+86400 IN MX 30 math.tifr.res.in.
+86400 IN MX 40 naveen.ncst
+
+gsbs-minicoy	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+kannadauniv	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ZPHSMD	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gjic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.tests	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+granules.uso	86400 IN A 202.141.86.102
+
+barc	86400 IN NS ganga.barc
+86400 IN NS ss585.ncst
+86400 IN NS garuda.barc
+86400 IN NS naamak.ncst
+86400 IN NS pushpak.barc
+
+*.bnce	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+csau	86400 IN NS e-iitk01.iitk
+86400 IN NS e-iitk02.iitk
+
+mku	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mylib	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.ada	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+PSNDHD	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gjbsn-amini	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+saha	172800 IN NS ns1.saha
+172800 IN NS ns2.saha
+172800 IN NS ns3.saha
+172800 IN NS ss585.ncst
+172800 IN NS naamak.ncst
+
+*.elxsi	86400 IN MX 10 venus.tataelxsi.co.in.
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 uumail-relay-blr
+
+san1	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+san2	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ciphet	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+csec	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+puri	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+arsapk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ghic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+www	86400 IN CNAME www.eis
+
+stpbang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+vcmugc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+ampindia	86400 IN MX 10 ampindia
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 iisc
+
+ampindia	86400 IN A 202.54.13.97
+
+bcdm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+nicrys	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+crest	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+
+bathubasti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ghs-kalpeni	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+skuastkashmir	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gujratiscience	86400 IN NS e-cati01.cati
+86400 IN NS e-cati02.cati
+
+ilri	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sard90	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+sauuni	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dotbang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ukash	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst.ernet.in
+
+kuniv	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+stthom	86400 IN MX 10 uumail-relay-blr
+
+recham	86400 IN NS NS0-BLR
+
+gicn	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iopb	86400 IN MX 10 iop.iopb.res.in.
+
+suntest	86400 IN MX 10 delavgw.eis
+
+*.bioinpu	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+hcu	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+elxsi	86400 IN MX 10 venus.tataelxsi.co.in.
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 uumail-relay-blr
+
+bionau	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+nifft	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+naarm	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+mafsu	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+BMPHSM	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ssftwo	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+nmu	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.gssl	86400 IN MX 10 mailhost.gsslco.co.in.
+
+tifrbng	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.ssf	86400 IN MX 10 mail-relay-in.cmi.ac.in.
+86400 IN MX 30 mail-relay-blr
+86400 IN MX 40 naveen.ncst
+
+ada	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mailblr.iisc
+86400 IN MX 30 mail-relay-vsat
+
+cpcrircmnr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+acm	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+icarneh	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+rm	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+*.bpurunv	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+lnmu	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.juphys	86400 IN MX 5 mail.juphys
+86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+icarnet	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ns.ipng	86400 IN A 202.41.97.27
+
+soilcons1	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.aripune	86400 IN MX 10 mail.iucaa
+86400 IN MX 20 sangam.ncst
+
+*.isibang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ZNRV	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iilm	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+nacen	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ipng	86400 IN NS ns.ipng
+
+gss-andrott	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.cedtgkp	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+dns.iisc	10 IN A 203.200.35.2
+10 IN A 220.227.207.2
+
+GTTCT	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+hutbay	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.nibm	86400 IN MX 10 mail.IUCAA
+86400 IN MX 20 sangam.ncst
+
+*.jnidb	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+KBSHC	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dns.iitb	86400 IN A 144.16.108.200
+
+gns-kalpeni	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+dns.iitd	86400 IN A 202.141.68.2
+
+scem	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+nitsri	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cdothelpline	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ipv6	86400 IN NS ns1
+
+cucc	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+*.cmethd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cswri	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+trri	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dli2	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cyber.IITKGP	86400 IN A 144.16.192.65
+86400 IN A 203.197.98.5
+
+timesgate.toi	86400 IN A 206.99.205.227
+
+ns2.imsc	86400 IN A 203.199.209.84
+
+HSBISHNU	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.cgcv	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+asi	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+wccagri	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+sbshs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.mrgpt	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+imipune	86400 IN NS e-iucc02.IUCAA
+
+alpha2.IIMB	86400 IN A 164.164.81.3
+
+SGSITS	86400 IN NS ns1
+
+*.sacon	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+e-uohd02.hyd	86400 IN A 202.141.142.132
+
+vbharat	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.psgtech	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nrcaf	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bharathi	86400 IN CNAME as250.bharathi
+
+rangat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+etdcms	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+malacca	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+BDU	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ucms	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+sdau	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+uceburla	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bambooflat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+crida	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+nrccf	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jnidb	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+sdalt	86400 IN NS e-eihq02.eis
+
+imtech	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.bose	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+nehutura	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+prlfs.prl	86400 IN A 202.41.133.33
+86400 IN A 202.41.133.65
+
+recjai	86400 IN NS NS0-BLR
+
+winrock	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+jmvd.ernet.in	86400 IN NS e-iisc01.iisc
+
+arsbsr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+igbvrs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+tropmet	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mathbu	86400 IN MX 10 math.mu.ac.in.
+
+*.sanghvi	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+caepht	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ns2.saha	172800 IN A 121.242.12.4
+
+*.gups	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+nduat	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+rect	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cic-vv	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+mrgpt	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+euig-cdac-pnq	86400 IN NS dns.euig-cdac-pnq
+
+nkpas	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cache-blr	86400 IN A 202.141.1.20
+
+isac	86400 IN NS dnsernp.isac
+86400 IN NS dnserns.isac.gov.in.
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+lapathy	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+sacon	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.cmc	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+blh	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+recw	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nrcmithun	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+indiaeducation	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+dnsernp.isac	86400 IN A 202.141.16.11
+
+prakruti.ncst	86400 IN A 202.141.151.13
+
+mhs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.taxila	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cmfrivsl	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+manglutan	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+aus	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iipa	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gsbs-agatti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+pushpak.barc	86400 IN A 203.199.33.4
+
+bardwebmain.bduinfonet	86400 IN A 202.141.117.34
+
+crescent	86400 IN NS e-chn02.chn
+86400 IN NS e-chn03.chn
+
+zphsab	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.jufs	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+iucaa	259200 IN NS e-iucc01.iucaa
+259200 IN NS e-iucc02.iucaa
+
+cgc	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+patel	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+iarirspusa	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gjbss-kiltan	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+svrec	86400 IN NS ns1
+86400 IN NS gabbar.svrec
+86400 IN NS e-eihq02.eis
+
+vetbifguwahati	86400 IN NS ns1.vetbifguwahati
+
+*.csi	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+swabiman	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.etdchy	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+ssmittpc	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mzu	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+e-kol02.kol	86400 IN A 202.141.139.132
+
+cmc	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+bcvum	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.cipet	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+zphscp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+oulib	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+zphsdk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nith	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.rgco	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+isid	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jnvkannur	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+medinst	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+nerist	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+veccal	86400 IN NS vecc.veccal
+86400 IN NS meghnad.veccal
+
+wbuafscl	86400 IN NS e-kol01.kol
+86400 IN NS e-kol02.kol
+
+e-iitk02.iitk	86400 IN A 202.141.40.132
+
+bub	86400 IN NS library.bub
+86400 IN NS e-iisc02.iisc
+
+knhsi	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ghs-kavaratti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+igcar	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+lrde	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+criil	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.etdcms	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+SSBBVPC	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gkpu	86400 IN NS dns
+86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc03.iisc
+
+bioint	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+iimahd	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+nrcrm	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gtijalandhar	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+crlbel	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mailblr.iisc
+86400 IN MX 30 mail-relay-vsat
+
+doexm	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+*.cccm1	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+scisjnu	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+kmnhs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dei	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+NS1-BLR	86400 IN A 202.141.1.131
+
+mohanpura	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+circotdharwad	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ece.iisc	86400 IN A 144.16.64.2
+
+nrcss	86400 IN NS hns1.bsnl.in.
+86400 IN NS hns2.bsnl.in.
+
+vu	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+hbti	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+lbgic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+aictem	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+vetcolbdr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dmrl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+RMVK	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+tissdns	86400 IN NS tissdns
+
+tissdns	86400 IN A 202.141.154.102
+
+qosnet	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+cprsshillong	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cipet	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ganga.barc	86400 IN A 203.197.30.2
+
+naac	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ducos	86400 IN NS e-eihq02.eis
+
+e-chn01.chn	86400 IN A 202.141.30.131
+
+vsat-web	86400 IN A 202.41.99.6
+
+SHREE-VV	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mhsm	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+csi	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+gtzhts	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.cfrms	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+barcg	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+csr	86400 IN NS e-cati01.cati
+86400 IN NS e-cati02.cati
+
+iuac	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+mjpru	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iitr	86400 IN NS dns.iisc
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+86400 IN NS mail-relay-vsat
+
+dli	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.cmetp	86400 IN MX 10 mail.iucaa
+86400 IN MX 20 sangam.ncst
+
+ZPHSPG	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+usismad	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+avadh.iitk	86400 IN A 202.141.40.10
+
+avadh.iitk	59469 IN AAAA 2001:e30:1400:1:202:b3ff:fe3f:bb84
+
+VDMB	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jbjhs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.dxm	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+dtserver.spjimr	86400 IN A 61.8.136.44
+
+chesch	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nrcorchid	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bu	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+bv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+guniv	86400 IN NS luit.guniv
+86400 IN NS subansiri.guniv
+
+angic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+zphsrg	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+doe	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+cpcri	86400 IN NS e-eihq02.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS e-eihq01.eis
+
+zphsrk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bhel	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+zphssd	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dns	86400 IN A 202.141.150.147
+
+e-jai02.jai	86400 IN A 202.141.126.132
+
+igicvm	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gjbsn-kadmat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ggiccl	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+zphstm	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nitpatna	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.eptri	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+*.swabiman	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+bioinau	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+campbellbay	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+cfrms	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+gu	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+prlcs1.prl	86400 IN A 172.16.15.6
+
+ZPGHSAMBAJOGAI	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dsi	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+eis	43200 IN NS e-eihq02.eis
+43200 IN NS e-eihq01.eis
+43200 IN NS dns
+43200 IN NS e-iisc03.iisc
+
+itrc	86400 IN MX 10 relay.iitk
+86400 IN MX 20 mail.eis
+86400 IN MX 30 mail-relay-delhi
+
+zphsvp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+RATNESHWAR-T	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.clcr	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ymcaie	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+cmetp	86400 IN MX 10 mail.iucaa
+86400 IN MX 20 sangam.ncst
+
+*.lambda	86400 IN MX 10 krishna.doe
+
+nbpgrhyd	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+JSPVM	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.jssdc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+e-gkp01.gkp	86400 IN A 202.141.156.131
+
+arce	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+*.jsscp	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ju	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+
+graphicalpro	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+cswcrtiooty	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.iocrbom	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+bioinfo	86400 IN NS ns.ncst
+86400 IN NS ns.iucaa
+86400 IN NS e-iucc01.iucaa
+86400 IN NS e-iucc02.iucaa
+
+sagic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ousclib	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+samuha	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+l-irma.irm	86400 IN A 202.141.92.34
+
+shar	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+slbsrsv	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+dwr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dxm	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+nrcmeat	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+iisr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+SARASWATI-V	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+thor.UNIPUNE	86400 IN A 196.1.114.1
+
+PHSK	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dabang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+NS2-BLR	86400 IN A 202.141.1.132
+
+e-eihq01.eis	43200 IN A 202.41.97.131
+
+ssf.smi	86400 IN A 202.141.52.2
+
+shssn	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+www.bharathi	86400 IN CNAME as250.bharathi
+
+rohini.cdot	86400 IN A 196.1.105.14
+
+ou	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+*.dccb	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+jnvlohardaga	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+racooty	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mailblr.iisc
+86400 IN MX 30 mail-relay-vsat
+
+cofvrl	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jadav	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+BHSB	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+JMGS	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+zphsspl	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.tifrbng	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+jssdc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.hcu	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+jsscp	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.erdct	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+chn	86400 IN NS e-chn01.chn
+86400 IN NS e-chn02.chn
+
+GDMHNJ	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.jssmc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+su	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+udct	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+plume.uso	86400 IN A 202.141.86.101
+
+*.iuccal	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+gec	86400 IN NS gec
+86400 IN NS e-iisc01.iisc
+
+gec	86400 IN A 202.41.120.23
+
+*.ouastr	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+ggicsg	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cswcagra	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+kecm	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+pdadmas	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+eptri	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+netmaster-vsat	86400 IN A 202.41.99.5
+
+hsgola	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ggicsr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+navodayachittoor	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cdotd	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+tvmtest	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+caet	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+e-cati01.cati	86400 IN A 202.141.112.131
+
+*.gama	86400 IN MX 10 krishna.doe
+
+mail.plasma	86400 IN A 202.131.103.3
+
+jnvjethian	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ilmas	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+e-iucc02.iucaa	259200 IN A 202.41.82.12
+
+e-ocac02.ocac	86400 IN A 202.141.87.132
+
+sshsk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cifakalyani	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.cmch	86400 IN MX 90 sunserv.cmc.stph.net.
+
+*.sclgat	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+manit	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+erdct	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+e-iucc02.iucca	86400 IN A 202.41.82.132
+
+mirik	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+
+*.puri	86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+*.iautgc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+jssmc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ns3.saha	172800 IN A 202.56.207.40
+
+hau	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gsbsg-andrott	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+nddb	86400 IN NS irma.irm
+86400 IN NS ss585.ncst
+86400 IN NS l-irma.irm
+86400 IN NS naamak.ncst
+
+gkp	86400 IN NS e-gkp01.gkp
+86400 IN NS e-gkp02.gkp
+
+GMHSR	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bhel01	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+aicte	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+dns1.ipv6dns	86400 IN AAAA 2001:e30:1801:1:20c:29ff:feb6:47b5
+
+nathantkv	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ncml	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+luit.guniv	86400 IN A 202.141.75.2
+
+MKVP	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+hillagric	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bghsbb	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+hsbarka	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+JMVD	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ukash	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst.ernet.in
+
+schoolline	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+fmsdu	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+beta	86400 IN MX 10 krishna.doe
+
+ipv6project	86400 IN NS ns1
+
+agricollege-pune	86400 IN NS e-iucc01.iucaa
+86400 IN NS e-iucc02.iucaa
+
+ilmas	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+naamak.ncst	56784 IN A 202.41.110.66
+
+ncra	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+tmc	86400 IN MX 10 sphinx.ncst
+
+kvkhub	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+gsss-minicoy	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+aripune	86400 IN MX 10 mail.iucaa
+86400 IN MX 20 sangam.ncst
+
+ggicsna	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iitk	86400 IN NS avadh.iitk
+86400 IN NS naamak.ncst
+86400 IN NS e-iitk01.iitk
+86400 IN NS e-iitk02.iitk
+
+SWRO-AICTE	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sgngicb	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+apan	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+nbagr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+NAVIN-MV	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ssftwo	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+cari	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+igfri	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+vasncst	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+ncst	86400 IN NS dns.ncst
+86400 IN NS md2.cdacmumbai.in.
+86400 IN NS prakruti.ncst
+
+*.bhiom	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+icarer	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cati	86400 IN NS e-cati01.cati
+86400 IN NS e-cati02.cati
+
+SMBPP	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+NCST-NP	86400 IN NS naamak.ncst
+86400 IN NS soochak.ncst
+
+sich	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+JAGMITRANAGA	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gghssdb	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mannarghat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ceeridc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+nrcyak	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+luit.IITG	86400 IN A 202.141.80.2
+
+e-tvm01.TVM	86400 IN A 202.141.131.131
+
+ccct	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+swarajgram	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+jnvb	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ipr	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+kaagc	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bduinfonet	86400 IN NS bardweb.bduinfonet
+86400 IN NS bardwebmain.bduinfonet
+
+siva	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+jnvn	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dbt	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.unimad	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+zphsgg	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cmethd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+*.ish	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+dns2.iitd	86400 IN A 202.141.68.9
+
+prl	86400 IN NS ns.prl.res.in.
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS prlcs1.prl
+86400 IN NS prlmisc.prl.res.in.
+
+*.nfc	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+ctri	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.rttc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+isidev	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+psgtech	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ctrihunsur	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bhiom	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+fastarjuna.plasma	86400 IN A 202.131.103.195
+
+cdac	86400 IN NS ns1.cdac.in.
+86400 IN NS ns2.cdac.in.
+86400 IN NS ns3.cdac
+86400 IN NS netops.cdac.in.
+86400 IN NS proxy1.cdac.in.
+
+jai	86400 IN NS e-jai01.jai
+86400 IN NS e-jai02.jai
+
+SJPH	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sjce	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+*.aftc	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+niclai	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.racooty	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+kfri	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+asrchyd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+hub	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jau	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gghssjs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+CCLB	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+bmcc	86400 IN NS e-iucc01.iucaa
+86400 IN NS e-iucc02.iucaa
+
+imd	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gbpuat	86400 IN NS NS0-BLR
+
+gjbsn-agatti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+ugcinfonet	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.isimad	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+tests	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+clcr	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+pahalgaon	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ZPGHS	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+neilisland	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.dabang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+hyd	86400 IN NS e-uohd01.hyd
+86400 IN NS e-uohd02.hyd
+
+npcil	86400 IN NS dns
+86400 IN NS ss585.ncst
+
+*.derl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+sicl	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+smi	86400 IN MX 10 mail-relay-in.cmi.ac.in.
+86400 IN MX 30 math.tifr.res.in.
+
+ipr	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+cdotb	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.isimed	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+ipu	86400 IN NS e-eihq02.eis
+
+mgvm	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jhs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+irm	86400 IN NS irma.irm
+86400 IN NS ss585.ncst
+86400 IN NS l-irma.irm
+86400 IN NS naamak.ncst
+
+cdotp	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+ish	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+pad-cifa	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gghssrp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+kukjln	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+
+cdachyd	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+
+dpdkv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+taxila	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cish	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+zphsvk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ksc	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.usismad	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+ipv6dns	86400 IN NS dns1.ipv6dns
+
+ccsu	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+
+bnce	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+election	86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+unigoa	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+chouldhari	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+jmi	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+KEC	86400 IN NS ece.iisc
+86400 IN NS iisc
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+
+rttc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+kalighat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+bakultala	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ns.iucindore	86400 IN A 202.141.129.66
+
+*.madphy	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.telcom	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+sakshat	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+etdchy	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+*.nbu	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+vecc.veccal	86400 IN A 202.41.93.7
+
+*.dfrl	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.idrbt	86400 IN MX 10 mail1.idrbt.ac.in.
+
+sclchd	86400 IN NS ns0-blr
+
+*.bioinau	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+cdachw	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+andhrau	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+cmmacs	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.iiithyd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cswcrtivsd	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ahrd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+jnvshimla	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.bethel	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+registry	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+nnvmb	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+tmv	86400 IN NS e-iucc01.iucaa
+86400 IN NS e-iucc02.iucaa
+
+ivriplp	86400 IN NS e-iisc01.iisc
+
+curaj	86400 IN A 202.141.126.132
+
+gjbs-kalpeni	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+dgh	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.cassa	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+lbsnaa	86400 IN NS manage.lbsnaa
+
+nasscom	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+horti	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+microin	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+e-iucc01.iucca	86400 IN A 202.41.82.131
+
+*.ousclib	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+UNIPUNE	86400 IN NS dns2.UNIPUNE
+86400 IN NS thor.UNIPUNE
+86400 IN NS e-iucc02.iucaa
+
+sabari	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+ZPHSKG	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ns1.niot	86400 IN A 202.141.25.233
+
+iari	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+uohdns.uohyd	86400 IN A 202.41.85.253
+
+sawai	86400 IN NS dns
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+
+*.csirm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+ipc2.mri	86400 IN A 202.41.87.2
+86400 IN A 210.212.50.5
+
+iocrbom	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+cdacb	86400 IN NS ns2.cdacb
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+jsbv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gssl	86400 IN MX 10 mailhost.gsslco.co.in.
+
+ugc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+*.dsi	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+kol	86400 IN NS e-kol01.kol
+86400 IN NS e-kol02.kol
+
+icar	86400 IN MX 5 delavgw.eis
+86400 IN MX 10 delavgw1.eis
+
+ictvc	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+wces	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dusc	86400 IN NS e-eihq02.eis
+
+bardweb.bduinfonet	86400 IN A 202.141.117.34
+
+gjbsc-andrott	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+iitp.iitp	86400 IN NS e-kol01.kol.iitp
+86400 IN NS e-kol02.kol.iitp
+
+cdot	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS rohini.cdot
+86400 IN NS vikram.doe
+
+*.patel	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+e-cati02.cati	86400 IN A 202.141.112.132
+
+gdnmghs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.dotbang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+klyuniv	86400 IN NS e-kol01.kol
+86400 IN NS e-kol02.kol
+
+sameer	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+PUNENET	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+gsbs-kavaratti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+rabindrabharati	86400 IN NS e-kol01.kol
+86400 IN NS e-kol02.kol
+
+*.ieeeh	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+cassa	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+e-ocac03.ocac	86400 IN A 202.141.87.133
+
+*.astra	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ac-ngp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ghs-andrott	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+raupusa	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+kuk	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ampindia	86400 IN MX 10 ampindia
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 iisc
+
+nibm	86400 IN MX 10 mail.IUCAA
+86400 IN MX 20 sangam.ncst
+
+giclr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+kud	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+snic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+viproad	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gjbs-bitra	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+mnrec	86400 IN NS mnrec
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+
+uvce	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ndrikly	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+csirm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.aiish	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+SXHSK	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cssri-canning	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gghsin	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+aiccip	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cgcv	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nilgiri	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+angrau	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.iobm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+msu	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.ncnote1	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+pphs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.nie	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+dpgic	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dns3.iitd	86400 IN A 202.54.26.86
+
+RGPGS	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+tuniv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ZPHSLP	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.doeacc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+ero-aicte	86400 IN NS e-kol01.kol
+86400 IN NS e-kol02.kol
+
+covas	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+boseinst	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS naveen.ncst
+86400 IN NS soochak.ncst
+86400 IN NS resources.boseinst
+86400 IN NS nameserver.boseinst
+
+ieeeh	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+mgu	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+astra	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nbfgr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+IITKGP	86400 IN NS cyber.IITKGP
+86400 IN NS ss585.ncst
+86400 IN NS vivek.doe
+86400 IN NS iitkgp.IITKGP
+86400 IN NS naamak.ncst
+
+lambda	86400 IN MX 10 krishna.doe
+
+www.juphys	86400 IN CNAME juphys
+
+DVSV	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nrccamel	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+apdhte	86400 IN NS e-iisc01.iisc
+
+idrbt	86400 IN MX 10 mail1.idrbt.ac.in.
+
+*.mul	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+iitkgp.IITKGP	86400 IN A 144.16.192.1
+86400 IN A 203.110.243.3
+86400 IN A 203.110.246.3
+86400 IN A 203.197.98.10
+
+juphys	86400 IN TXT "Department of Physics, Jadavpur University"
+
+juphys	86400 IN MX 5 mail.juphys
+86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+juphys	86400 IN A 202.141.138.42
+
+deccancollege	86400 IN NS e-iucc01.iucaa
+86400 IN NS e-iucc02.iucaa
+
+ns1.cat	86400 IN A 210.212.157.164
+
+NCB	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+
+nau	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+aiish	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+dxmail	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq03.eis
+
+*.nitie	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+circot	86400 IN NS e-ncst01.ncst
+86400 IN NS e-ncst02.ncst
+
+nbu	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+mkv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gups	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+rmrs	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+mayabunder	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.bcdm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+cith	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+mdu	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq03.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+nfc	86400 IN MX 10 dakgw.nfc.gov.in.
+86400 IN MX 20 uohyd
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 mail-relay-blr
+
+test	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+
+e-iisc01.iisc	86400 IN A 202.141.1.131
+
+as250.bharathi	86400 IN MX 10 as250.bharathi
+86400 IN MX 30 sangam.ncst
+
+as250.bharathi	86400 IN A 202.141.84.2
+
+gjbss-agatti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+niot	86400 IN NS ns1.niot
+86400 IN NS ns2.niot
+
+*.jnuniv	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+jnvroing	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.sameer	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+*.iopb	86400 IN MX 10 iop.iopb.res.in.
+
+MRPV	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+kau-coavly	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gghsvk	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ctbora	86400 IN NS e-iucc01.iucaa
+86400 IN NS e-iucc02.iucaa
+
+npl-cgc	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gghsvn	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+iccc2002	86400 IN A 202.141.25.107
+
+*.bxmail	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+jufs	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+gjbsm-andrott	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+cwahs	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+digitallibrary	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+icarsikkim	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ciah	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ciba	86400 IN NS e-chn02.chn
+86400 IN NS e-chn03.chn
+
+iuccal	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+zphsgp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mail-relay-delhi	86400 IN A 202.41.100.92
+
+*.udct	86400 IN MX 10 sangam.ncst
+86400 IN MX 20 mail.ncst
+86400 IN MX 30 mail.uu.net.
+
+ouastr	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+isro	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.ceeridc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+GHSKUPPAM	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+e-gkp02.gkp	86400 IN A 202.141.156.132
+
+pdcsr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+mul	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+tezu	86400 IN NS agnigarh.tezu
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cmcmas	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+ns1	86400 IN AAAA 2001:e30:1801:1:20e:7fff:fefe:d9f2
+
+ns1	86400 IN A 202.41.97.9
+
+ieg	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gcmvhs	86400 IN NS e-iisc02.iisc
+
+uso.uso	86400 IN A 202.141.86.25
+
+gjbss-kadmat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+nkvicrn	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gghssdp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+dns.ncst	86400 IN A 202.141.150.18
+
+nirjaft	86400 IN NS dns
+86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc03.iisc
+
+utkal	86400 IN NS utkal
+
+utkal	86400 IN A 202.141.87.4
+
+e-eihq02.eis	43200 IN A 202.41.97.132
+
+cccm1	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+HILBANG	86400 IN NS dns.iisc
+86400 IN NS ece.iisc
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+
+sclgat	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+ghs-amini	86400 IN NS dns
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+
+mail-relay-vsat	86400 IN A 202.41.99.3
+
+*.scem	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+mail.juphys	86400 IN A 202.141.138.41
+
+iautgc	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+ocac	86400 IN NS e-ocac02.ocac
+86400 IN NS e-ocac03.ocac
+
+manuulib	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+*.cucc	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+nsc	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+eihq	86400 IN NS mahavir.doe
+
+nplindia	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.asrchyd	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+ZPHSBPARLI-V	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.doexm	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+delnet	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq03.eis
+
+zphspl	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cpri	86400 IN NS e-eihq01.eis
+86400 IN NS e-eihq02.eis
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+HIPTUMR	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+pbi	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+*.burdwan	86400 IN MX 10 mail.kol
+86400 IN MX 20 veccal.kol
+86400 IN MX 30 mail.eis
+
+*.bhel01	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+gyandarshan	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ZPHSPN	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ghs-kiltan	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+*.tally	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+magadhuniv	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+nwro-aicte	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+dns.euig-cdac-pnq	86400 IN A 144.16.192.66
+
+zphspp	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+pec	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS NS1-BLR
+86400 IN NS NS2-BLR
+
+*.mceme	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+tushanabad	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.beta	86400 IN MX 10 krishna.doe
+
+rscbrc	86400 IN NS ns1
+86400 IN NS e-eihq02.eis
+
+KKCHSS	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+pl1	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+pl2	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.alumni	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+kaucof	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+aictesro	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+cmcbang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nbssbangalore	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+PHD	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+wtcer	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+itibang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+jnvml	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cropweatheroutlook	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ceeri	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS NS0-BLR
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ghs-aamini	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+*.microin	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+middlepoint	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+garacharma	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+cirg	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+lmicpq	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.rci	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+NHSTPS	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+cprsooty	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+pmbgsc	86400 IN NS e-cati02.cati
+86400 IN NS e-cati03.cati
+
+eilrnd	86400 IN NS e-eihq02.eis
+
+e-chn02.chn	86400 IN A 202.141.30.132
+
+srpvd	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+tally	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+banaras	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ghs-chetlat	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+gssfg	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+gjbse-kavaratti	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+mceme	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+wimberlygunj	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+ncnote1	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+jnvwarangal	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ngroad	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+spjimr	86400 IN NS ns1
+86400 IN NS dtserver.spjimr
+86400 IN NS e-eihq02.eis
+
+unimad	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+YASHWANT	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+ns2.niot	86400 IN A 203.199.199.199
+
+*.nrsah	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+*.oulib	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+IITG	86400 IN NS luit.IITG
+86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS patkai.iitg.ac.in.
+86400 IN NS sangam.ncst
+
+*.andhrau	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+nbsslup	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+*.cmcbang	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+ntpcrd	86400 IN NS e-eihq02.eis
+
+nie	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+events	86400 IN NS e-eihq02.eis
+86400 IN NS e-eihq01.eis
+
+ferragunj	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS mail-relay-vsat2
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+
+ftpipv6	86400 IN AAAA 2001:e30:1801:1:212:79ff:fe95:f202
+
+cifertk	86400 IN NS e-ncst01.ncst
+86400 IN NS e-ncst02.ncst
+
+gjbsk-andrott	86400 IN NS e-eihq02.eis
+86400 IN NS mail-relay-vsat
+86400 IN NS dns
+86400 IN NS e-iisc03.iisc
+86400 IN NS mail-relay-vsat2
+
+aries	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+rbhssc	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+uumail-relay-blr	86400 IN A 202.141.1.17
+
+rmpbarc	86400 IN MX 5 mylibnet.org.in.
+86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+e-cati03.cati	86400 IN A 202.141.112.133
+
+*.nicrys	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.rmc	86400 IN MX 10 shakti.ncst
+86400 IN MX 20 sangam.ncst
+86400 IN MX 30 naveen.ncst
+
+*.nasscom	86400 IN MX 10 mail.eis
+86400 IN MX 20 mail-relay-delhi
+86400 IN MX 30 sangam.ncst
+
+ns3.cdac	56841 IN A 196.1.109.102
+
+carnicobar	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+acrcr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.sard90	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+*.inraphel	86400 IN MX 10 mail.kol
+86400 IN MX 20 e-eihq01.eis
+
+isimad	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm
+
+apsurewa	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+*.lrde	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+nicfos1	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+dccb	86400 IN MX 10 uumail-relay-blr
+86400 IN MX 20 mail-relay-blr
+86400 IN MX 30 mail-relay-vsat
+86400 IN MX 40 naveen.ncst
+
+*.ciefl	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+rci	86400 IN MX 10 universe.uohyd
+86400 IN MX 20 mail-relay-vsat
+86400 IN MX 30 mail-relay-blr
+
+pdfsr	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+vrce	86400 IN NS ss585.ncst
+86400 IN NS naamak.ncst
+86400 IN NS ns0-blr
+86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sgnvc	86400 IN NS e-iisc01.iisc
+86400 IN NS e-iisc02.iisc
+
+sirnetm	86400 IN MX 10 spark.iitm
+86400 IN MX 20 brahma.iitm
+86400 IN MX 30 cello.cs.iitm</code>
