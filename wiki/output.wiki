@@ -5,16 +5,16 @@
 
 Knock v1.4.3 by Gianni 'guelfoweb' Amato ( http://knock.gianniamato.it )
 
-[+] Testing domain
++ Testing domain
      	www.google.com           74.125.232.112     
-[+] Dns resolving
++ Dns resolving
        Domain name               Ip address              Name server       
 	No address associated with hostname google.com
-[+] Testing wildcard
++ Testing wildcard
 	Ok, no wildcard found.
 
-[+] Scanning for subdomain on google.com
-[!] Wordlist not specified. I scannig with my internal wordlist...
++ Scanning for subdomain on google.com
+! Wordlist not specified. I scannig with my internal wordlist...
     Estimated time about 155.74 seconds
 
         Subdomain                Ip address              Name server
