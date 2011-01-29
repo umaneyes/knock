@@ -3,7 +3,6 @@
 Knock allows you to scan subdomains, Transfer Zone discovery, Wildcard testing with internal or external wordlist.
 
 Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone Transfer</a> option (*-zt*) you must install the module <a href="http://www.dnspython.org/">dnspython</a>, otherwise you can do without.
-_This version does not support the output file option._
 
 = Details =
 
