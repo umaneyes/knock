@@ -2,7 +2,7 @@
 
 Knock allows you to scan subdomains, Transfer Zone discovery, Wildcard testing with internal or external wordlist.
 
-Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone Transfer</a> option (*-zt*) you must install the module <a href="http://www.dnspython.org/">dnspython</a>, otherwise you can do without.
+This program is self contained, doesn't need to be installed in any particular location. Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone Transfer</a> option (*-zt*) you must install the module <a href="http://www.dnspython.org/">dnspython</a>, otherwise you can do without. All it needs is a recent version of Python 2.x (or minor).
 
 =Usage=
   <code>$ python knock.py <option> <url></code>
