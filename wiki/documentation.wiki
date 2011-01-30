@@ -60,6 +60,11 @@ Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone T
 
  <code>$ ./knock.py -dns _domain.com_</code>
 
+==Sample stdout to file==
+This will cause the ouput of a knock to be written to a text file
+
+<code>$ ./knock.py domain.com > output.txt</code>
+
 
 _You do not understand how to use knock? Back to play with the Xbox!_
 
