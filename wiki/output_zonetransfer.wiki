@@ -3,7 +3,7 @@
 <code>
 *$ ./knock.py -zt owasp.org*
 
-Knock v1.4.4.1 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
+Knock v1.4.4b by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 
 `[+]` Testing domain
       	www.owasp.org            216.48.3.18       
