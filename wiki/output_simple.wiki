@@ -3,7 +3,7 @@
 <code>
 *$ ./knock.py google.com*
 
-Knock v1.4.4 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
+Knock v1.4.4b by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 
 `[+]` Testing domain
      	www.google.com           74.125.232.112     
