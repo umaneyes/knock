@@ -5,17 +5,17 @@
 
 Knock v1.4.4 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 
-+ Testing domain
+`[+]` Testing domain
       	www.owasp.org            216.48.3.18       
-+ Dns resolving
+`[+]` Dns resolving
        Domain name               Ip address              Name server       
 	No address associated with hostname owasp.org
-+ Getting NS records for owasp.org
+`[+]` Getting NS records for owasp.org
 
 	Found name server: ns1.secure.net.
 	Found name server: ns2.secure.net.
 
-+ Trying a zone transfer for owasp.org from name server ns1.secure.net.
+`[+]` Trying a zone transfer for owasp.org from name server ns1.secure.net.
 
 @	86400 IN SOA ns1.secure.net. hostmaster.secure.net. 2007080389 86400 7200 2592000 86400
 
