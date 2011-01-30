@@ -7,7 +7,7 @@ This program is self contained, doesn't need to be installed in any particular l
 =Usage=
   <code>$ python knock.py <option> <url></code>
 
-==Rapid Scan==
+===Rapid Scan===
   <b>Scanning with <u>internal</u> wordlist:</b>
 
   <code>$ python knock.py <url></code>
@@ -17,7 +17,7 @@ This program is self contained, doesn't need to be installed in any particular l
   <code>$ python knock.py <url> <wordlist></code>
 
 
-<h3>Options:</h3>
+===Options===
 
   <b>-zt</b> <u>Zone Transfer discovery:</u>
 
