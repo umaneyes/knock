@@ -1,4 +1,3 @@
-#labels Featured
 = Scanning google.com =
 
 <code>
