@@ -46,6 +46,8 @@ Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone T
 ==Executable on Windows==
  <a href="http://code.google.com/p/knock/downloads/list">Download knock</a> *zip* archive, extract folder and use file _knock.exe_
 
+ Required: <a href="http://www.python.org/ftp/python/">Python 2.x</a> and <a href="http://www.dnspython.org/kits/">Dnspython</a>
+
 =Examples=
  <b>Scanning with <u>internal</u> wordlist</b>
 
