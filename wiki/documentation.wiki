@@ -39,7 +39,8 @@ Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone T
  <a href="http://code.google.com/p/knock/downloads/list">Download knock</a> *tar.gz* archive and extract file _knock.py_
 
  From shell command:
- <code>$ sudo chmod a+x knock.py</code>
+ <code>$ sudo cp knock.py /usr/local/bin/knock
+$ sudo chmod a+x /usr/local/bin/knock </code>
 
  Now you can use knock as shown in the examples.
 
@@ -51,28 +52,28 @@ Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone T
 =Examples=
  <b>Scanning with <u>internal</u> wordlist</b>
 
- <code>$ ./knock.py _domain.com_</code>
+ <code>$ ./knock _domain.com_</code>
 
  <b>Scanning with <u>external</u> wordlist</b>
 
- <code>$ ./knock.py _domain.com wordlist.txt_</code>
+ <code>$ ./knock _domain.com wordlist.txt_</code>
 
  <b>Zone Transfer discovery (-zt)</b>
 
- <code>$ ./knock.py -zt _domain.com_</code>
+ <code>$ ./knock -zt _domain.com_</code>
 
  <b>Wildcard testing (-wc)</b>
 
- <code>$ ./knock.py -wc _domain.com_</code>
+ <code>$ ./knock -wc _domain.com_</code>
 
  <b>Dns resolver (-dns)</b>
 
- <code>$ ./knock.py -dns _domain.com_</code>
+ <code>$ ./knock -dns _domain.com_</code>
 
 ==Sample stdout to file==
  This will cause the ouput of a knock to be written to a text file
 
- <code>$ ./knock.py domain.com > output.txt</code>
+ <code>$ ./knock domain.com > output.txt</code>
 
 
 _You do not understand how to use knock? Back to play with the Xbox!_
