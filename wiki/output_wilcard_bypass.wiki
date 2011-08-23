@@ -3,7 +3,7 @@
 == Before ==
 I try to scan domain *alice.it* but knock tells me that the wildcard is enabled.
 <code>
-*$ ./knock.py alice.it*
+*$ ./knock alice.it*
 
 Knock v1.5 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 
