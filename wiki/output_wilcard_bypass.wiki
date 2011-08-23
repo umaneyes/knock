@@ -1,7 +1,7 @@
 = Scanning alice.it (with wilcard enabled) =
 
 == Before ==
-I try to scan domain alice.it but knock tells me that the wilcard is enabled.
+I try to scan domain *alice.it* but knock tells me that the wilcard is enabled.
 <code>
 *$ ./knock.py alice.it*
 
