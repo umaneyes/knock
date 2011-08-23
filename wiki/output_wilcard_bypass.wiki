@@ -22,6 +22,7 @@ Knock v1.5 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 <p>The requested URL / was not found on this server.</p>
 </body></html>
 
+
 	Wildcard enabled! Try with -bw option
 	Example: knock -bw 404 alice.it
 </code>
