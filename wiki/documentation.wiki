@@ -24,16 +24,19 @@ Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone T
 
   <b>-zt</b> <u>Zone Transfer discovery:</u>
 
-  <code>$ python -zt knock.py <url></code>
-
-
-  <b>-wc</b> <u>Wildcard testing:</u>
-
-  <code>$ python -wc knock.py <url></code>
+  <code>$ python knock.py -zt <url></code>
 
   <b>-dns</b> <u>Dns resolver:</u>
 
-  <code>$ python -dns knock.py <url></code>
+  <code>$ python knock.py -dns <url></code>
+
+  <b>-wc</b> <u>Wildcard testing:</u>
+
+  <code>$ python knock.py -wc <url></code>
+
+  <b>-wc</b> <u>Wildcard bypass:</u>
+
+  <code>$ python knock.py -bw <stringexclude> <url></code>
 
 ==Executable on Linux==
  <a href="http://code.google.com/p/knock/downloads/list">Download knock</a> *tar.gz* archive and extract file _knock.py_
@@ -62,13 +65,21 @@ $ sudo chmod a+x /usr/local/bin/knock </code>
 
  <code>$ ./knock -zt _domain.com_</code>
 
+ <b>Dns resolver (-dns)</b>
+
+ <code>$ ./knock -dns _domain.com_</code>
+
  <b>Wildcard testing (-wc)</b>
 
  <code>$ ./knock -wc _domain.com_</code>
 
- <b>Dns resolver (-dns)</b>
+ <b>Wildcard bypass with <u>internal</u> wordlist (-wc)</b>
 
- <code>$ ./knock -dns _domain.com_</code>
+ <code>$ ./knock -bw _stringexclude_ _domain.com_</code>
+
+ <b>Wildcard bypass with <u>external</u> wordlist (-wc)</b>
+
+ <code>$ ./knock -bw _stringexclude_ _domain.com_ _wordlist.txt_</code>
 
 ==Sample stdout to file==
  This will cause the ouput of a knock to be written to a text file
