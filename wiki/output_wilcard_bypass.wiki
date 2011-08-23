@@ -1,13 +1,64 @@
-#summary One-sentence summary of this page.
+= Scanning alice.it (with wilcard enabled) =
 
-= Introduction =
+== Before ==
+I try to scan domain alice.it but knock tells me that the wilcard is enabled.
+<code>
+*$ ./knock.py alice.it*
 
-Add your content here.
+Knock v1.5 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 
+`[+]` Testing domain
+      	www.alice.it           217.169.121.227     
+`[+]` Dns resolving
+       Domain name               Ip address              Name server       
+	No address associated with hostname alice.it
+`[+]` Testing wildcard
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>   
+<title>404 Not Found</title>   
+</head><body>   
+<h1>Not Found</h1>   
+<p>The requested URL / was not found on this server.</p>
+</body></html>
 
-= Details =
+	Wildcard enabled! Try with -bw option
+	Example: knock -bw 404 alice.it
+</code>
+== After ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The server responded with an HTML page that contains the error 404. Ok, I can use the "-bw" followed by the string to exclude all pages that contain. Happy :-)
+<code>
+*$ ./knock -bw 404 alice.it*
+
+Knock v1.5 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
+
+`[+]` Testing domain
+      	www.alice.it           217.169.121.227     
+`[+]` Dns resolving
+       Domain name               Ip address              Name server       
+	No address associated with hostname alice.it
+`[+]` Bypass wildcard
+      blog.alice.it                               
+       cc.alice.it                                
+      chat.alice.it                               
+    community.alice.it                            
+     device.alice.it                              
+      forum.alice.it                              
+      help.alice.it                               
+     images.alice.it                              
+       irc.alice.it                               
+        m.alice.it                                
+      mail.alice.it                               
+      mail2.alice.it                              
+    messenger.alice.it                            
+     mobile.alice.it                              
+       pg.alice.it                                
+     search.alice.it                              
+    shopping.alice.it                             
+        w.alice.it                                
+       ww.alice.it                                
+       www.alice.it                               
+      www-.alice.it                               
+
+Found 21 subdomain(s) in 1326.1 second(s)
+</code>
