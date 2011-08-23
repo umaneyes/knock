@@ -26,7 +26,7 @@ Knock v1.5 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
 </code>
 == After ==
 
-The server responded with an HTML page that contains the error 404. Ok, I can use the "-bw" followed by the string to exclude all pages that contain. Happy :-)
+The server responded with an HTML page that contains the error *404*. Ok, I can use the "-bw" followed by the string to exclude all pages that contain. Happy :-)
 <code>
 *$ ./knock -bw 404 alice.it*
 
