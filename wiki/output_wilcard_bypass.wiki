@@ -13,6 +13,7 @@ Knock v1.5 by Gianni 'guelfoweb' Amato ( http://knock.googlecode.com )
        Domain name               Ip address              Name server       
 	No address associated with hostname alice.it
 `[+]` Testing wildcard
+
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>   
 <title>404 Not Found</title>   
