@@ -34,7 +34,7 @@ Only for use the <a href="http://en.wikipedia.org/wiki/DNS_zone_transfer">Zone T
 
   <code>$ python knock.py -wc <url></code>
 
-  <b>-wc</b> <u>Wildcard bypass:</u>
+  <b>-bw</b> <u>Wildcard bypass:</u>
 
   <code>$ python knock.py -bw <stringexclude> <url></code>
 
