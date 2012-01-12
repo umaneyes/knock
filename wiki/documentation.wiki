@@ -55,31 +55,31 @@ $ sudo chmod a+x /usr/local/bin/knock </code>
 =Examples=
  <b>Scanning with <u>internal</u> wordlist</b>
 
- <code>$ ./knock _domain.com_</code>
+ <code>$ ./knock domain.com</code>
 
  <b>Scanning with <u>external</u> wordlist</b>
 
- <code>$ ./knock _domain.com wordlist.txt_</code>
+ <code>$ ./knock domain.com wordlist.txt</code>
 
  <b>Zone Transfer discovery (-zt)</b>
 
- <code>$ ./knock -zt _domain.com_</code>
+ <code>$ ./knock -zt domain.com</code>
 
  <b>Dns resolver (-dns)</b>
 
- <code>$ ./knock -dns _domain.com_</code>
+ <code>$ ./knock -dns domain.com</code>
 
  <b>Wildcard testing (-wc)</b>
 
- <code>$ ./knock -wc _domain.com_</code>
+ <code>$ ./knock -wc domain.com</code>
 
  <b>Wildcard bypass with <u>internal</u> wordlist (-wc)</b>
 
- <code>$ ./knock -bw _stringexclude_ _domain.com_</code>
+ <code>$ ./knock -bw stringexclude domain.com</code>
 
  <b>Wildcard bypass with <u>external</u> wordlist (-wc)</b>
 
- <code>$ ./knock -bw _stringexclude_ _domain.com_ _wordlist.txt_</code>
+ <code>$ ./knock -bw stringexclude domain.com wordlist.txt</code>
 
 ==Sample stdout to file==
  This will cause the ouput of a knock to be written to a text file
